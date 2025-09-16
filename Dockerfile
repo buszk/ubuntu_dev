@@ -11,6 +11,7 @@ RUN apt-get update && \
         git \
         python3 \
         python3-pip \
+        sudo \
     && rm -rf /var/lib/apt/lists/*
 
 
