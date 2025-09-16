@@ -30,4 +30,4 @@ EXPOSE 22
 EXPOSE 8080
 
 # Default commands
-CMD service ssh start && bash
+CMD service ssh start && tail -f /dev/null
