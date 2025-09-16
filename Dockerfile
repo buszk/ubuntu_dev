@@ -31,4 +31,4 @@ EXPOSE 22
 EXPOSE 8080
 
 # Default commands
-CMD service ssh start && tail -f /dev/null
+CMD service ssh start && chown -R ubuntu:ubuntu /home/ubuntu && tail -f /dev/null
